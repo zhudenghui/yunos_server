@@ -35,8 +35,8 @@ define('HS_DB_PRE'     , 'yuedu_');    // 数据表统一前缀
 define('HS_DB_CHARSET' , 'utf8');   // mysql 字符集类型
 
 /* 微信小程序相关设置  */
-define('HS_APPID'  , '*****');
-define('HS_SECRET' , '*****');
+define('HS_APPID'  , 'wxb71766b834a59be5');
+define('HS_SECRET' , 'a7cc66f7b72f405cff468116cda35b1d');
 
 /* 自动加载 */
 function hsAutoLoad($className){

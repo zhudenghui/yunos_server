@@ -30,7 +30,7 @@ class member{
 			$member['u_id']     = $db->add($member);
 		}
 		
-		if(empty($member['u_id'] )){
+		if(empty($member['u_id'])){
 			exit(jsonCode('error', '注册失败，请返回重试'));
 		}
 		// 如果用户已经注册 member 变量中已经保存用户信息
